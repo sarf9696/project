@@ -1,0 +1,28 @@
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+}
+
+th {
+    background: #6ed99c;
+    color: cornsilk;
+    font-size: larger;
+}
+
+.error {
+    font-family: 'DejaVu Serif', Georgia, "Times New Roman", Times, serif;
+    color: #ff338d;
+    margin: 5px;
+    font-style: italic;
+}
+
+.error404 {
+    font-family: 'DejaVu Serif', Georgia, "Times New Roman", Times, serif;
+    color: white;
+    font-size: small;
+    background-color: black;
+}

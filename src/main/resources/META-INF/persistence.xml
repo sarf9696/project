@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+
+
+    <persistence-unit name="mehdifinalproject">
+
+        <class>ir.fanap.mehdisarfejoo.project.entity.device.Phone</class>
+        <class>ir.fanap.mehdisarfejoo.project.entity.device.SmartPhone</class>
+        <class>ir.fanap.mehdisarfejoo.project.entity.device.Tablet</class>
+        <class>ir.fanap.mehdisarfejoo.project.entity.simcard.SIMCard</class>
+        <class>ir.fanap.mehdisarfejoo.project.entity.simcard.RightelSIMCard</class>
+        <class>ir.fanap.mehdisarfejoo.project.entity.simcard.HamraheAvalSIMCard</class>
+        <class>ir.fanap.mehdisarfejoo.project.entity.simcard.IrancellSIMCard</class>
+
+
+        <properties>
+            <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/mehdifinalproject"/>
+            <property name="javax.persistence.jdbc.user" value="mehdifinalproject"/>
+            <property name="javax.persistence.jdbc.password" value="mehdifinalproject96"/>
+
+            <property name="hibernate.show_sql" value="true"/>
+            <property name="hibernate.format_sql" value="true"/>
+            <property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/mehdifinalproject"/>
+            <property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver"/>
+
+            <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL55Dialect"/>
+            <property name="hibernate.hbm2ddl.auto" value="update"></property>
+
+        </properties>
+
+    </persistence-unit>
+</persistence>
